@@ -5,7 +5,7 @@
  CHE NON CAPIVO SE FOSSE UN LAICO O UN ECCLESIASTICO…" ';
  $lunghezzaStringa = strlen($verso);
  $autore = "[cit.] Dante, canto XVIII";
- $versoCens = str_replace("MERDA", $badword, $verso);
+ $versoCens = str_replace($badword, "*****", $verso);
 ?>
 
 <!DOCTYPE html>
